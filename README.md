@@ -52,3 +52,45 @@ git clone https://github.com/yourusername/fall-detection-band.git
 cd fall-detection-band
 pip install -r requirements.txt
 
+
+Usage
+1. Train the model
+
+bash
+Copy
+Edit
+python src/train_model.py
+2. Test the model
+
+bash
+Copy
+Edit
+python src/test_model.py
+3. Run real-time detection (if hardware connected)
+
+bash
+Copy
+Edit
+python src/realtime_detection.py
+
+
+
+Hardware Setup
+Microcontroller: ESP32
+
+Sensors:
+
+MPU6050 (Accelerometer + Gyroscope)
+
+MAX30102 (Heart Rate)
+
+Wiring Diagram: See hardware/wiring_diagram.png
+
+
+
+3. requirements.txt
+numpy
+pandas
+scikit-learn
+scipy
+joblib
