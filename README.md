@@ -42,12 +42,12 @@ Accuracy: 84.5% on test set
 
 How to load:
 
-python
+python:
 import joblib
 model = joblib.load("models/fall_model.pkl")
 
 
-Installation
+Installation:
 git clone https://github.com/yourusername/fall-detection-band.git
 cd fall-detection-band
 pip install -r requirements.txt
